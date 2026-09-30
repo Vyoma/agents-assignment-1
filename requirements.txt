@@ -1,5 +1,5 @@
 # Core CrewAI
-crewai>=0.28.0
+crewai[google-genai]>=0.28.0
 crewai-tools>=0.1.0
 
 # Vector Store
