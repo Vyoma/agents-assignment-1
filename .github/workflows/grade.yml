@@ -1,13 +1,16 @@
-# Copy this to student repos: .github/workflows/grade.yml
+# Autograding workflow for student submissions
+# Requires GRADER_PAT secret configured in repo settings
 name: Autograding
 
 on:
+  workflow_dispatch:
   push:
     branches: [main, master]
 
 jobs:
   grade:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.GRADING_ENABLED == 'true' }}
     steps:
       - name: Checkout student code
         uses: actions/checkout@v4
