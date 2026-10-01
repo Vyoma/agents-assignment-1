@@ -81,16 +81,16 @@ The kit includes 15 foundational papers on agentic AI:
 
 ## Getting Started
 
-### 1. Fork and Clone the Repository
+### 1. Create Your Repository
 
-Go to the GitHub repo and **fork** it to your own GitHub account, then clone your fork:
+Go to the GitHub repo and click **"Use this template" > "Create a new repository"**. Name it `agents-assignment-1`, set it to **Public**, and create it. Then clone your new repo:
 
 ```bash
 git clone https://github.com/<your-username>/agents-assignment-1.git
 cd agents-assignment-1
 ```
 
-> **Why fork?** You will submit your work by sharing your forked repository. This keeps your changes separate from the starter kit.
+> **Why a template?** This creates a clean copy under your account with its own history. You will submit by sharing this repository link.
 
 ### 2. Install uv (if you don't have it)
 
@@ -277,7 +277,7 @@ your-forked-repo/
 
 ### How to Submit
 
-1. Commit and push all your changes to your fork:
+1. Commit and push all your changes:
    ```bash
    git add -A
    git commit -m "Complete assignment: Research Crew implementation"
